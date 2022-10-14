@@ -15,3 +15,12 @@ Date: 2022/10/14
 
 1:17 I have created database context MvcSocksContext.cs file.
 	 I executed provided content in that file.
+
+2:26 I get back to work.
+	 Updated Startup.cs file by Using statements
+	 and add provided code to Startup.ConfigureServices.
+	 Also updated json file by adding connencting string.
+
+2:28 Then I updated readme file,
+	 and commite all stuff on github.
+	 
