@@ -12,3 +12,6 @@ Date: 2022/10/14
 	  Then I upload this whole thing with github,
 	  and I commited and pushed it there
 	  on 1:04.
+
+1:17 I have created database context MvcSocksContext.cs file.
+	 I executed provided content in that file.

@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MvcSocks.Models
 {
-    public class Socks
+    public class socks
     {
         public int Id { get; set; }
         public string Company { get; set; }
