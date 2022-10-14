@@ -32,5 +32,20 @@ Date: 2022/10/14
 	 and started testing.
 	 It was working perfectly.
 
+3:15 I created SeedData.cs Class
+	 into Models folder.....
+	 I insert 10 records of Socks with diferent properties.
+	 They, I updated Program.cs file in order to make SeedData
+	 working..... :)
 
-	 
+3:20 I finally tried to run program...
+	 Ooops! There was something wrong with Program.cs file.
+
+3:40 I found the error. 
+	 I forgot to include one using stetement, now I have
+	 added it....
+	 and booooommmm....
+	 My code is working...
+
+3:50 Now I have noted everithing in Readme file.
+	 And commite code to github.
