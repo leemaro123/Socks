@@ -20,9 +20,32 @@ namespace Socks.Controllers
         }
 
         // GET: socks
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string socksType, string searchString)
         {
-            return View(await _context.socks.ToListAsync());
+            IQueryable<string> typeQuery = from m in _context.socks
+                                            orderby m.Type
+                                            select m.Type;
+
+            var socksS = from m in _context.socks
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                socksS = socksS.Where(s => s.Company.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(socksType))
+            {
+                socksS = socksS.Where(x => x.Type == socksType);
+            }
+
+            var socksTypeVM = new SocksTypeViewModel
+            {
+                Types = new SelectList(await typeQuery.Distinct().ToListAsync()),
+                SocksS = await socksS.ToListAsync()
+            };
+
+            return View(socksTypeVM);
         }
 
         // GET: socks/Details/5

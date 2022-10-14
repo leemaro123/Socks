@@ -53,3 +53,30 @@ Date: 2022/10/14
 4:15 I have updated socks.cs file with controller mathods
 	 and view by provided code.
 	 Then I commited code to github.
+
+4:30 Now I reached at search menu.
+	 That's why I have updated index method three times 
+	 in socksController.cs file.
+
+4:45 I started adding search socks by type.
+	 I built class SocksTypeViewModel.cs in Modles folder.
+	 I execuit code by provied ppt.
+
+4:55 Replace the Index method 
+	 in MoviesController.cs with provided code.
+	 I forgot to update Index.cshtml file and 
+	 I directly tried to run the code.
+	 Then I find out it won't work
+	 without that file.
+
+5:15 Update Index.cshtml found in Views/Movies/ as
+	 given code.
+	 Then I was curious to see my output.
+	 Bingo!!!!!!!!!!!!!!!!!
+	 It worked.......... :)
+	 and it says when your code works,
+	 don't touch it.
+
+5:25 Then I noted everything on readme file.
+	 And I commite it to github.
+	 
