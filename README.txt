@@ -49,3 +49,7 @@ Date: 2022/10/14
 
 3:50 Now I have noted everithing in Readme file.
 	 And commite code to github.
+
+4:15 I have updated socks.cs file with controller mathods
+	 and view by provided code.
+	 Then I commited code to github.
