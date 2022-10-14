@@ -23,4 +23,14 @@ Date: 2022/10/14
 
 2:28 Then I updated readme file,
 	 and commite all stuff on github.
+
+2:31 First I used scaffold tool in order to create 
+	 CRUD pages for the socks modle.
+	 Then used the EF Core Migrations feature to create the database.
+
+2:40 I wrote everything on readme file.
+	 and started testing.
+	 It was working perfectly.
+
+
 	 
