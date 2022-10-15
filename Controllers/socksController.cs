@@ -77,7 +77,7 @@ namespace Socks.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Company,LaunchDate,Type,Color,Size,Price")] socks socks)
+        public async Task<IActionResult> Create([Bind("Id,Company,LaunchDate,Type,Color,Size,Price,Rating")] socks socks)
         {
             if (ModelState.IsValid)
             {
@@ -109,7 +109,7 @@ namespace Socks.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Company,LaunchDate,Type,Color,Size,Price")] socks socks)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Company,LaunchDate,Type,Color,Size,Price,Rating")] socks socks)
         {
             if (id != socks.Id)
             {

@@ -20,7 +20,11 @@ namespace MvcSocks.Models
         public string Color { get; set; }
         public string Size { get; set; }
 
+        [DataType(DataType.Currency)]
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
+
+        [Range(1, 5)]
+        public int Rating { get; set; }
     }
 }

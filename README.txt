@@ -79,4 +79,16 @@ Date: 2022/10/14
 
 5:25 Then I noted everything on readme file.
 	 And I commite it to github.
+
+9:00 After having dinner, I was feeling so good,
+	 I didn't think that assignment gonna that much faster now.
+	 I have added Rating filed to every pages which require it.
+	 Then I check my work.
+	 It worked...:)
+
+9:15 I have added few validation to Rating field which 
+	 requires to be in range of 1 to 5.
+	 I have also noted everything to the readme page.
+
+9:27 Lastly, I commited my code to github and push it.
 	 

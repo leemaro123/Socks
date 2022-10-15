@@ -31,7 +31,8 @@ namespace MvcSocks.Models
                         Type = "Sports",
                         Color = "Black",
                         Size = "Medium",
-                        Price = 10
+                        Price = 10,
+                        Rating = 2
                     },
 
                     new socks
@@ -41,7 +42,8 @@ namespace MvcSocks.Models
                         Type = "Trainning",
                         Color = "Gray",
                         Size = "Large",
-                        Price = 15
+                        Price = 15,
+                        Rating = 4
                     },
 
                     new socks
@@ -51,7 +53,8 @@ namespace MvcSocks.Models
                         Type = "Loafer",        
                         Color = "Blue",
                         Size = "Small",
-                        Price = 20
+                        Price = 20,
+                        Rating = 3
                     },
 
                     new socks
@@ -61,7 +64,8 @@ namespace MvcSocks.Models
                         Type = "Trainning",
                         Color = "Purple",
                         Size = "Extra Large",
-                        Price = 10
+                        Price = 10,
+                        Rating = 1
                     },
 
                     new socks
@@ -71,7 +75,8 @@ namespace MvcSocks.Models
                         Type = "Sports",
                         Color = "Red",
                         Size = "Medium",
-                        Price = 30
+                        Price = 30,
+                        Rating = 5
                     },
 
                     new socks
@@ -81,7 +86,8 @@ namespace MvcSocks.Models
                         Type = "Running",
                         Color = "Yellow",
                         Size = "Extra Small",
-                        Price = 13
+                        Price = 13,
+                        Rating = 2
                     },
 
                     new socks
@@ -91,7 +97,8 @@ namespace MvcSocks.Models
                         Type = "Casual",
                         Color = "Gray",
                         Size = "Medium",
-                        Price = 25
+                        Price = 25,
+                        Rating = 2
                     },
 
                     new socks
@@ -101,7 +108,8 @@ namespace MvcSocks.Models
                         Type = "Loafer",
                         Color = "Dark Green",
                         Size = "Small",
-                        Price = 20
+                        Price = 20,
+                        Rating = 5
                     },
 
                     new socks
@@ -111,7 +119,8 @@ namespace MvcSocks.Models
                         Type = "Sport",
                         Color = "Orenge",
                         Size = "Large",
-                        Price = 25
+                        Price = 25,
+                        Rating = 3
                     },
 
                     new socks
@@ -121,7 +130,8 @@ namespace MvcSocks.Models
                         Type = "Casual",
                         Color = "Grey",
                         Size = "Extra Large",
-                        Price = 15
+                        Price = 15,
+                        Rating = 4
                     }
 
                 );
