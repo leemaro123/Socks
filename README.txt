@@ -91,4 +91,16 @@ Date: 2022/10/14
 	 I have also noted everything to the readme page.
 
 9:27 Lastly, I commited my code to github and push it.
+
+Date: 2022-10-16
+
+6:30 I have made About us page on home ditrctory.
+	 I have tried to link it with navigation bar, so I made changes
+	 to the _Layout.cshtml file.
 	 
+6:40 Then I tried to see out put. 
+	 It shoewed error of two pages.
+	 I was shocked.
+
+6:55 After 15 minutes, I realize that I forgot to update my controller page.
+	 Now, I have updated it and try to run it and it works completely. :)
