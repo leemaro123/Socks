@@ -17,7 +17,7 @@ namespace MvcSocks.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<MvcSocksContext>>()))
             {
-                // Look for any movies.
+                // Look for any socks.
                 if (context.Socks.Any())
                 {
                     return;   // DB has been seeded

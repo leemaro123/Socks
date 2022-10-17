@@ -4,6 +4,42 @@
     ViewData["Title"] = "Index";
 }
 
+<style>
+    h1{
+        font-size:4em;
+        text-align:center;
+        color: darksalmon;
+    }
+    h1 + p{
+        text-align: center;
+        line-height:3em;
+    }
+    a{
+        color: green;
+    }
+    form p{
+        text-align:right;
+    }
+    img {
+        width: 90%;
+        margin: 0 5% 20px;
+    }
+    th{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rebeccapurple;
+        text-align:center;
+        font-size: 1.5em;
+    }
+    td{
+        font-family:'Times New Roman', Times, serif;
+        color:darkblue;
+        text-align: center;
+    }
+    table{
+        background-color:antiquewhite;
+    }
+</style>
+
 <h1>Index</h1>
 
 <p>
@@ -23,6 +59,8 @@
 
 </form>
 
+<img src="~/img/back1.webp"/>
+
 <table class="table">
     <thead>
         <tr>
@@ -40,7 +78,7 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.SocksS[0].Size)
-            </th>
+            </th>   
             <th>
                 @Html.DisplayNameFor(model => model.SocksS[0].Price)
             </th>
